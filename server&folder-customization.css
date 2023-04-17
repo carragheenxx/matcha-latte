@@ -13,27 +13,35 @@ width: var(--server-sidebar-width-hover);
 
 /* ind. servers backing */.listItem-3SmSlK{    
 background-color: var(--server-backing-color) !important;
+border-radius: var(--server-backing-border-radius);
+border-width: var(--server-backing-border-width);
+border-color: var(--server-backing-border-color);
+border-style: var(--server-backing-border-style);
+
 width: calc(0.8 * var(--server-sidebar-width-hover));
 position: relative;
-margin-left: calc(0.1 * var(--server-sidebar-width-hover));
-border-radius: var(--server-backing-radius);
+margin-left: calc(var(--server-sidebar-margin) * var(--server-sidebar-width-hover));
 opacity: var(--server-backing-opacity);
 margin-top: var(--server-sidebar-spacing);
 margin-bottom: var(--server-sidebar-spacing);
 transition-duration: 100ms;
 }
-/* ind. servers backing :hover */.listItem-3SmSlK:hover{    
+/* ind. servers backing :hover */.listItem-3SmSlK:hover{  
 background-color: var(--server-backing-color-hover) !important;
+border-radius: var(--server-backing-border-radius-hover);
+border-width: var(--server-backing-border-width);
+border-color: var(--server-backing-border-color);
+border-style: var(--server-backing-border-style);
+
 width: calc(0.8 * var(--server-sidebar-width-hover));
 position: relative;
-margin-left: calc(0.1 * var(--server-sidebar-width-hover));
+margin-left: calc(var(--server-sidebar-margin-hover) * var(--server-sidebar-width-hover));
 margin-top: var(--server-sidebar-spacing);
 margin-bottom: var(--server-sidebar-spacing);
-
-border-radius: var(--server-backing-radius);
 opacity: var(--server-backing-opacity-hover);
 transition-duration: 100ms;
 }
+
 
 
 
